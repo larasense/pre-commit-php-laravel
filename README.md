@@ -12,7 +12,7 @@ See (Adding pre-commit plugins to your project)[https://pre-commit.com/#adding-p
 
 ```yaml
 - repo: https://github.com/larasense/pre-commit-php-laravel
-  rev: 1.0.0
+  rev: 1.0.1
   hooks:
     - id: pest-test
 ```
@@ -23,7 +23,7 @@ It run Pest on a local environment
 
 ```yaml
 - repo: https://github.com/larasense/pre-commit-php-laravel
-  rev: 1.0.0
+  rev: 1.0.1
   hooks:
     - id: pest-test-sail
 ```
@@ -49,7 +49,7 @@ repos:
           - "--memory-limit=2G"
       - id: php-lint
   - repo: https://github.com/larasense/pre-commit-php-laravel
-    rev: 1.0.0
+    rev: 1.0.1
     hooks:
       - id: pest-test-sail
 ```
