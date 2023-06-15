@@ -13,5 +13,5 @@
 
 # Plugin title
 title="Pest Unit Task Runner"
-php artisan test
+./vendor/bin/pest
 
