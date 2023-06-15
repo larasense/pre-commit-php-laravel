@@ -1,0 +1,15 @@
+- id: pest-test
+  name: Pest Test
+  description: Run the full php unit test. It run `php artisan test`.
+  entry: pre_commit_hooks/pest.sh
+  language: script
+  pass_filenames: false
+  files: \.php$
+
+- id: pest-test-sail
+  name: Pest Test
+  description: Run the full php unit test. it run `sail artisan test`
+  entry: pre_commit_hooks/pest-sail.sh
+  language: script
+  pass_filenames: false
+  files: \.php$
